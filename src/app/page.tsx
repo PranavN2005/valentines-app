@@ -239,8 +239,8 @@ END:VCALENDAR`
               onMouseEnter={() => setIsHovering(true)}
               onMouseLeave={() => setIsHovering(false)}
             >
-              <Card className="card-glow w-full max-w-md border-valentine-blue/40 bg-black/40 backdrop-blur-sm">
-                <CardContent className="p-8 text-center">
+              <Card className="card-glow w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl border-valentine-blue/40 bg-black/40 backdrop-blur-sm">
+                <CardContent className="p-6 sm:p-8 md:p-10 lg:p-12 text-center">
                   {/* Title with Cat */}
                   <motion.div
                     className="mb-6 flex items-center justify-center gap-4"
@@ -248,15 +248,15 @@ END:VCALENDAR`
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.2 }}
                   >
-                    <h1 className="font-[family-name:var(--font-poppins)] text-4xl font-bold text-valentine-glow whitespace-nowrap">
+                    <h1 className="font-[family-name:var(--font-poppins)] text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-valentine-glow whitespace-nowrap">
                       Que onda mamita
                     </h1>
-                    <img src="/cat.png" alt="Cat with rose" className="h-16 w-16 rounded-full object-cover flex-shrink-0" />
+                    <img src="/cat.png" alt="Cat with rose" className="h-12 w-12 sm:h-14 sm:w-14 md:h-16 md:w-16 lg:h-20 lg:w-20 rounded-full object-cover flex-shrink-0" />
                   </motion.div>
 
                   {/* Message */}
                   <motion.p
-                    className="mb-6 text-lg leading-relaxed text-gray-300"
+                    className="mb-6 text-base sm:text-lg md:text-xl leading-relaxed text-gray-300"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.3 }}
@@ -278,7 +278,7 @@ END:VCALENDAR`
 
                   {/* Question - Cinzel Font */}
                   <motion.h2
-                    className="mb-8 text-4xl text-valentine-glow"
+                    className="mb-8 text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-valentine-glow"
                     style={{ fontFamily: '"Cinzel", serif', fontWeight: 700 }}
                     initial={{ opacity: 0, scale: 0.9 }}
                     animate={{ opacity: 1, scale: 1 }}
@@ -322,8 +322,8 @@ END:VCALENDAR`
               exit={{ opacity: 0, scale: 0.5 }}
               transition={{ duration: 0.5, type: "spring", bounce: 0.4 }}
             >
-              <Card className="card-glow w-full max-w-md border-valentine-blue/40 bg-black/40 backdrop-blur-sm">
-                <CardContent className="p-8 text-center">
+              <Card className="card-glow w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl border-valentine-blue/40 bg-black/40 backdrop-blur-sm">
+                <CardContent className="p-6 sm:p-8 md:p-10 lg:p-12 text-center">
                   <motion.div
                     className="mb-6 text-6xl"
                     animate={{ scale: [1, 1.2, 1], rotate: [0, 5, -5, 0] }}
@@ -385,8 +385,8 @@ END:VCALENDAR`
               exit={{ opacity: 0, y: -50 }}
               transition={{ duration: 0.4 }}
             >
-              <Card className="card-glow w-full max-w-md border-valentine-blue/40 bg-black/40 backdrop-blur-sm">
-                <CardContent className="p-8 text-center">
+              <Card className="card-glow w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl border-valentine-blue/40 bg-black/40 backdrop-blur-sm">
+                <CardContent className="p-6 sm:p-8 md:p-10 lg:p-12 text-center">
                   <motion.div
                     className="mb-6 text-6xl"
                     animate={{ y: [0, -10, 0] }}
