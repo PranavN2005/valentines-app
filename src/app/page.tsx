@@ -300,11 +300,11 @@ END:VCALENDAR`
                     </Button>
                     <motion.div
                       animate={{ x: noButtonPosition.x, y: noButtonPosition.y }}
-                      transition={{ type: "spring", stiffness: 1000, damping: 15 }}
+                      transition={{ type: "spring", stiffness: 80, damping: 25 }}
                       onMouseMove={handleNoButtonMouseMove}
                       className="relative"
                     >
-                      <Button ref={noButtonRef} variant="valentineOutline" size="lg" className="w-full sm:w-auto" onClick={handleNoClick}>
+                      <Button ref={noButtonRef} variant="valentineOutline" size="lg" className="w-full sm:w-auto" onClick={handleNo}>
                         No
                       </Button>
                     </motion.div>
