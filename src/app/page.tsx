@@ -325,11 +325,11 @@ END:VCALENDAR`
               <Card className="card-glow w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl border-valentine-blue/40 bg-black/40 backdrop-blur-sm">
                 <CardContent className="p-6 sm:p-8 md:p-10 lg:p-12 text-center">
                   <motion.div
-                    className="mb-6 text-6xl"
-                    animate={{ scale: [1, 1.2, 1], rotate: [0, 5, -5, 0] }}
-                    transition={{ duration: 1.5, repeat: Infinity }}
+                    className="mb-6"
+                    animate={{ scale: [1, 1.1, 1], rotate: [0, 3, -3, 0] }}
+                    transition={{ duration: 2, repeat: Infinity }}
                   >
-                    🥰💙✨
+                    <img src="/smooth-emoji.png" alt="Smooth emoji with rose" className="h-32 w-32 mx-auto" />
                   </motion.div>
                   <motion.h2
                     className="mb-4 text-3xl text-valentine-glow"
