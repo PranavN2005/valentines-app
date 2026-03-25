@@ -255,14 +255,14 @@ END:VCALENDAR`
                   </motion.div>
 
                   {/* Message */}
-                  <motion.p
+                  {/* <motion.p
                     className="mb-6 text-base sm:text-lg md:text-xl leading-relaxed text-gray-300"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.3 }}
                   >
                     My dearest friend, if you don&apos;t mind... I&apos;d like to join you by your side... For it is plain, as anyone can see, <span className="font-semibold text-valentine-accent">We&apos;re simply meant to be</span> ✨
-                  </motion.p>
+                  </motion.p> */}
 
                   {/* Divider */}
                   <motion.div
